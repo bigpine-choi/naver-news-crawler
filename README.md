@@ -3,6 +3,7 @@
 웹크롤링 데이터를 이미지로 가공하는 과정에서 Java script를 사용하기 때문에 프로그램을 정상적으로 구동하기 위해선 JDK 파일도 같이 컴퓨터에 설치해야 하니 참고 바랍니다.
 
 ✅ 필요한 다운로드 파일 및 설정
+
 1️⃣ Python 패키지 (pip 설치 필요)
 아래 패키지들이 naver_news_crawler_worldcloud.py 코드에서 사용됨.
 pip install requests beautifulsoup4 wordcloud matplotlib konlpy
@@ -27,6 +28,7 @@ EXCLUDED_KEYWORDS는 필터링에서 제외할 단어 목록임.
 👉 필요하면 naver_news_crawler_worldcloud.py에서 수정 가능.
 
 ✅ 최종적으로 필요한 파일 목록
+
 파일명	설명
 naver_news_crawler_worldcloud.py	네이버 경제 뉴스 크롤링 및 워드클라우드 생성 코드
 chromedriver.exe (선택)	Selenium이 필요할 경우
